@@ -1,25 +1,34 @@
 <template>
   <div class="home">
-    <HelloWorld greeting="Hello I am" name= "Aman Baid" />
-    <div id="exp">
-    <experience/>
+    <MainPage greeting="Hello I am" name= "Aman Baid" />
+    <hr>
+    <div>
+    <experience/><hr>
+    <academics/><hr>
+    <awards/><hr>
+    <hobbies/><hr>
     </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import MainPage from '@/components/MainPage.vue'
 import experience from '@/components/experience.vue'
+import academics from '@/components/academics.vue'
+import awards from '@/components/awards.vue'
+import hobbies from '@/components/hobbies.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
-    experience
+    MainPage,
+    experience,
+    academics,
+    awards,
+    hobbies
   }
 }
 </script>
-<style scoped>
+<style>
 
 </style>

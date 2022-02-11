@@ -1,10 +1,6 @@
 <template>
-  <div id="experience">
-    <div id="exp-header">
+  <div id="headings">
     <h3 id="heading"><b>Experience</b></h3>
-    <h3 id="heading"><b>Experience</b></h3>
-    <h3 id="heading"><b>Experience</b></h3>
-    </div>
     <p id="para"> <b>
       t is a long established fact that a reader will be distracted by the
       readable content of a page when looking at its layout. The point of using
@@ -20,21 +16,22 @@
   </div>
 </template>
 
-<style scoped>
+<style >
+#headings{
+display: flex;
+flex-flow: column;
+margin-left: 20px;    
+}
 #heading {
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif; 
 }
 #para{
-    margin: 20px;
-    padding: 10px;
+    margin-left: 10px;
+    margin-right: 100px;
     font-size: 20px;
     font-family: 'Nunito Sans', sans-serif;
-    color:white;
+    color:black;
 }
-#exp-header{
-    display: flex;
-}
-#experience {
-  background: #f55951;
-}
+
+
 </style>
