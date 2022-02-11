@@ -6,7 +6,7 @@
     <experience/><hr>
     <academics/><hr>
     <awards/><hr>
-    <hobbies/><hr>
+    <hobbies/>
     </div>
   </div>
 </template>
